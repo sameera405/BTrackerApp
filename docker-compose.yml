@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  btacapstoneproject:
+    image: ${DOCKER_REGISTRY-}btacapstoneproject
+    build:
+      context: .\BTACapstoneProject
+      dockerfile: Dockerfile
